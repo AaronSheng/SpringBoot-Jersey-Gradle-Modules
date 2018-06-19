@@ -1,0 +1,9 @@
+rootProject.name = 'microservice'
+include ":api"
+include ":api:api-account"
+include ":service"
+include ":service:service-account"
+include ":common"
+include ":common:common-api"
+include ":common:common-service"
+include ":common:common-web"
